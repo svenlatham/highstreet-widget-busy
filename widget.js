@@ -56,3 +56,6 @@ var highstreetWidget = (function() {
 
     return { init: init }
 });
+
+
+highstreetWidget.init();
