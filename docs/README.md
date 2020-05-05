@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to SUBDIRECTORY
 
 You can use the [editor on GitHub](https://github.com/svenlatham/highstreet-covid19-widget/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
