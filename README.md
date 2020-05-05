@@ -1,6 +1,12 @@
-## Welcome to GitHub Pages
+## High Street Covid-19 Reporter
 
-You can use the [editor on GitHub](https://github.com/svenlatham/highstreet-covid19-widget/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This is a simple tool for showing how busy your High Street is, and when the best times to visit might be.
+
+You can see a sample on the [demo page](https://svenlatham.github.io/highstreet-covid19-widget/).
+
+### Installation
+
+Working on this...
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
