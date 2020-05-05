@@ -10,7 +10,7 @@ Open the page you want to edit, and add the following code:
 
 ```markdown
 <div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-covid19-widget/sample.csv"></div>
-<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=123"></script>
+<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=234"></script>
 ```
 
 Replace data-source with your footfall data
@@ -20,7 +20,7 @@ Replace data-source with your footfall data
 
 
 <div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-covid19-widget/sample.csv"></div>
-<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=123"></script>
+<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js"></script>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
