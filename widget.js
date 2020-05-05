@@ -25,7 +25,7 @@ var highstreetWidget = (function() {
     function getData() {
         // Go load the data
         let src = el.dataset.source;
-        xhr.open(src);
+        xhr.open("GET",src);
         xhr.send();
     }
 
