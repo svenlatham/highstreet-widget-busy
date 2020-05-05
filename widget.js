@@ -19,6 +19,7 @@ var highstreetWidget = (function() {
                 dataLoaded(this.responseText);
             }
         };
+        getData();
     }
 
     function getData() {

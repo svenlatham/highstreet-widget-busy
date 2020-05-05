@@ -10,7 +10,7 @@ Open the page you want to edit, and add the following code:
 
 ```markdown
 <div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-covid19-widget/sample.csv"></div>
-<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=234"></script>
+<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=24"></script>
 ```
 
 Replace data-source with your footfall data
