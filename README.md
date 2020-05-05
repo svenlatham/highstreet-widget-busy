@@ -8,6 +8,12 @@ You can see a sample on the [demo page](https://svenlatham.github.io/highstreet-
 
 Working on this...
 
+### Sample
+
+
+<div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-covid19-widget/sample.csv"></div>
+<script src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js"></script>
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
