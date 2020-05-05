@@ -12,7 +12,7 @@ Working on this...
 
 
 <div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-covid19-widget/sample.csv"></div>
-<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js"></script>
+<script defer src="https://svenlatham.github.io/highstreet-covid19-widget/widget.js?src=123"></script>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
