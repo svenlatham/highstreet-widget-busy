@@ -26,8 +26,8 @@ var highstreetWidget = (function() {
         for (let i=0; i<7; i++) {
             let div = document.createElement("DIV");
             div.appendChild(document.createTextNode(days[i]));
-            div.style.width = "35px";
-            div.style.padding = "10px";
+            div.style.width = "55px";
+            div.style.padding = "0";
             div.style.display = "inline-block";
             div.style.textAlign = "center";
             div.style.cursor = "pointer";
