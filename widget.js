@@ -32,6 +32,7 @@ var highstreetWidget = (function() {
             div.style.textAlign = "center";
             div.style.cursor = "pointer";
             div.style.fontSize = "16px";
+            div.style.boxSizing = "content-box";
             dateContainer.appendChild(div);
             div.addEventListener("click", function() {
                 showDay(i+1);
