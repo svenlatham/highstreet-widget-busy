@@ -19,7 +19,7 @@ var highstreetWidget = (function() {
     
         el = document.getElementById("highstreetwidget");
         el.style.width = "400px";
-        el.style.height = "230px"; 
+        el.style.height = "180px"; 
         el.style.backgroundColor = "#cccccc";
 
         let dateContainer = document.createElement("DIV");
