@@ -36,3 +36,7 @@ Example:
 ```
 
 If you're using WordPress, you can probably upload the CSV to the Media Library (I haven't tested this yet...)
+
+### Licence
+
+It's free to use and licenced under MIT Licence.
