@@ -33,9 +33,10 @@ var highstreetWidget = (function() {
             div.style.cursor = "pointer";
             div.style.fontSize = "16px";
             div.style.boxSizing = "content-box";
+            div.dataset.day = i+1;
             dateContainer.appendChild(div);
             div.addEventListener("click", function() {
-                showDay(i+1);
+                showDay(this.dataset.day);
             });
             elDays[i]= div;
         }
@@ -154,7 +155,8 @@ var highstreetWidget = (function() {
     function dataLoaded(input) {
         // We're expecting a CSV of some kind
         // Format is 7 lines, with 12 values on each. This is local time (0700-1900) for Monday to Sunday
-        rows = input.split("\n");
+        input = input.replace(/\r/,"");
+        rows = input.split(/\n/);
         data = []; // Reset the data field
         max = 0;
         rows.forEach(function(row) {
