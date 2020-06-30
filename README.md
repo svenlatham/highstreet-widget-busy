@@ -4,7 +4,7 @@ This is a simple tool for showing how busy your High Street is, and when the bes
 
 ### Sample
 
-<div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-widget-busy/sample.csv"></div>
+<div class="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-widget-busy/sample.csv"></div>
 <script defer src="https://svenlatham.github.io/highstreet-widget-busy/widget.js"></script>
 
 ### Installation
@@ -12,7 +12,7 @@ This is a simple tool for showing how busy your High Street is, and when the bes
 Open the page you want to edit, and add the following code:
 
 ```markdown
-<div id="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-widget-busy/sample.csv"></div>
+<div class="highstreetwidget" data-source="https://svenlatham.github.io/highstreet-widget-busy/sample.csv"></div>
 <script defer src="https://svenlatham.github.io/highstreet-widget-busy/widget.js"></script>
 ```
 
