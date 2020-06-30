@@ -1,8 +1,7 @@
 /* Sven Latham May 2019 sven@svenlatham.com */
 /* Displays a simple widget showing footfall data in graph form */
 
-var highstreetWidget = (function() {
-    var el = null;
+var highstreetWidget = function(el) {
     var days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
     var data = [];
     var max = 0;
@@ -16,8 +15,6 @@ var highstreetWidget = (function() {
     var cols = []; // This will hold 12 columns/rectangles
     var elDays = []; // Accumulate days here (0..6)
     function init() {
-    
-        el = document.getElementById("highstreetwidget");
         el.style.width = "400px";
         el.style.height = "180px"; 
         el.style.backgroundColor = "#ffffff";
@@ -177,7 +174,11 @@ var highstreetWidget = (function() {
 
 
     return { init: init }
-})();
+};
 
-
-highstreetWidget.init();
+var widgets = document.getElementsByClassName("highstreetwidget");
+for (var i = 0; i < widgets.length; i++) {
+    let widget = widgets[i];
+    let widgetHandler = highstreetWidget(widget);
+    widgetHandler.init();
+}
